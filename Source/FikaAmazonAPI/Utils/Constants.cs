@@ -59,8 +59,7 @@ namespace FikaAmazonAPI.Utils
             relationships,
             salesRanks,
             summaries,
-            vendorDetails,
-            fulfillmentAvailability
+            vendorDetails
         }
 
         [JsonConverter(typeof(StringEnumConverter))]
